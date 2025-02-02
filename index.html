@@ -5,7 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>E-comerce-page</title>
     <link rel="stylesheet" href="style.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
   </head>
   <body>
     <header class="header">
@@ -22,7 +24,7 @@
           </div>
 
           <div class="nav-assets">
-            <img src="./assets/icons/cart-icon.svg" alt="cart-icon" />
+            <img class="nav-cart-icon" src="./assets/icons/cart-icon.svg" alt="cart-icon" />
 
             <img
               class="nav-profile"
@@ -39,10 +41,10 @@
         <img class="product-sample" src="" alt="" />
 
         <div class="mini-products">
-          <img class="product-carousel" src="" alt="" />
-          <img class="product-carousel" src="" alt="" />
-          <img class="product-carousel" src="" alt="" />
-          <img class="product-carousel" src="" alt="" />
+          <img id="img-1" class="product-carousel" src="" alt="" />
+          <img id="img-2" class="product-carousel" src="" alt="" />
+          <img id="img-3" class="product-carousel" src="" alt="" />
+          <img id="img-4" class="product-carousel" src="" alt="" />
         </div>
       </div>
 
@@ -82,5 +84,7 @@
         </div>
       </div>
     </section>
+
+    <script src="./index.js"></script>
   </body>
 </html>

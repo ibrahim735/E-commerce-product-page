@@ -6,9 +6,8 @@
     box-sizing: border-box;
 }
 
-.body {
-    color: white;
-    font-family: 'Roboto', sans-serif;
+body {
+    font-family: "Open Sans", serif;
 }
 
 .header {
@@ -28,7 +27,7 @@
 .nav-container {
     display: flex;
     align-items: center;
-    gap: 390px;
+    gap: 300px;
     padding: 30px;
 }
 
@@ -61,9 +60,12 @@
     justify-content: center;
     gap: 40px;
 }
-
+.nav-cart-icon{
+    cursor: pointer;
+}
 .nav-profile {
     width: 50px;
+    cursor: pointer;
 }
 
 .product {
@@ -191,6 +193,7 @@
     gap: 10px;
 }
 
-.add-to-cart div p {
-    font-size: 15px;
+.add-to-cart-content span{
+    font-size: 12px;
+    font-weight: bold;
 }
